@@ -2,6 +2,6 @@ application:
   name: "cyberpunk-pong-game"
   pods:
     - name: "web"
-      image: "registry.nexlayer.io/nexlayer-mcp/50196529-dd99-4df8-bc1d-f5e510f462ef/cyberpunk-pong-game-30df0542-web:1a16a036-1764013226"
+      image: "registry.nexlayer.io/nexlayer-mcp/c7d082a8-8267-4034-aea7-72fb8a8509e9/cyberpunk-pong-game-af195e89-web:c59eda5d-1764015488"
       path: "/"
       servicePorts: [80]
