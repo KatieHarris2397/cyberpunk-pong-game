@@ -3,6 +3,6 @@ application:
   url: "pong.auditdeploy.io"
   pods:
     - name: "web"
-      image: "registry.nexlayer.io/nexlayer-mcp/e7cf7e3c-7d97-4f6d-a0c5-56d4353c5a95/cyberpunk-pong-game-7798d3d6-web:310b35d6-1763673379"
+      image: "registry.nexlayer.io/nexlayer-mcp/50196529-dd99-4df8-bc1d-f5e510f462ef/cyberpunk-pong-game-30df0542-web:1a16a036-1764013226"
       path: "/"
       servicePorts: [80]
