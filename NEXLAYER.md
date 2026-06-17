@@ -15,7 +15,7 @@
 
 ## Project Summary
 <!-- nexlayer:section agent-managed=project_summary -->
-A futuristic, neon-styled Pong game featuring cyberpunk aesthetics, AI opponents, and dynamic visual effects implemented using vanilla JavaScript and HTML5 Canvas.
+A cyberpunk-themed Pong game featuring neon aesthetics, particle effects, and an AI opponent, built using vanilla JavaScript and HTML5 Canvas.
 <!-- nexlayer:end -->
 
 ## Technology Stack
@@ -30,17 +30,16 @@ A futuristic, neon-styled Pong game featuring cyberpunk aesthetics, AI opponents
 
 ## Repository Structure
 <!-- nexlayer:section agent-managed=structure_map -->
+- root — Project root containing static assets and configuration
 - index.html — Main entry point and game canvas layout
-- style.css — Cyberpunk styling, neon effects, and animations
-- script.js — Game logic, AI behavior, and rendering engine
-- Dockerfile — Containerization for static hosting
+- style.css — Cyberpunk styling and neon animations
+- script.js — Core game logic, AI, and rendering engine
+- Dockerfile — Containerization for Nginx static hosting
 <!-- nexlayer:end -->
 
 ## External Services Required
 <!-- nexlayer:section agent-managed=external_deps -->
-Services that must be configured separately (not deployed by Nexlayer):
-
-- Google Fonts (Orbitron)
+_No external services detected._
 <!-- nexlayer:end -->
 
 ## Local Development Setup
@@ -61,14 +60,13 @@ Services that must be configured separately (not deployed by Nexlayer):
 
 ```yaml
 application:
-  name: "cyberpunk-pong-game"
+  name: cyberpunk-pong-game
   pods:
     - name: "web"
       image: "registry.nexlayer.io/nexlayer-mcp/katieharris2397/cyberpunk-pong-game:38e30e1"
       path: "/"
       servicePorts: [80]
 ```
-
 <!-- nexlayer:end -->
 
 ## Nexlayer Deployment Plan
@@ -92,14 +90,14 @@ application:
 
 ## Nexlayer Configuration
 <!-- nexlayer:section agent-managed=nexlayer_config -->
-**Last deployed:** 2026-06-16T18:35:15Z  
+**Last deployed:** 2026-06-17T23:26:36Z  
 **Live URL:** https://kitbear-studio-cyberpunk-pong-game.cloud.nexlayer.ai  
 **Runtime:**  · **Port:** auto-detected  
-**Deploy branch:** main  
+**Deploy branch:** nexlayer  
 
 ```yaml
 application:
-  name: "cyberpunk-pong-game"
+  name: cyberpunk-pong-game
   pods:
     - name: "web"
       image: "registry.nexlayer.io/nexlayer-mcp/katieharris2397/cyberpunk-pong-game:38e30e1"
@@ -112,6 +110,7 @@ application:
 <!-- nexlayer:section agent-managed=build_history -->
 | Date | Status | Notes |
 |------|--------|-------|
-| 2026-06-16T18:34:56Z | analyzed | initial repo analysis |
-| 2026-06-16T18:35:15Z | success | deployed https://kitbear-studio-cyberpunk-pong-game.cloud.nexlayer.ai |
+| 2026-06-17T23:25:48Z | analyzed | initial repo analysis |
+| 2026-06-17T23:26:36Z | success | deployed https://kitbear-studio-cyberpunk-pong-game.cloud.nexlayer.ai |
 <!-- nexlayer:end -->
+

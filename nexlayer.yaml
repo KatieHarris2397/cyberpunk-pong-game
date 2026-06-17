@@ -1,5 +1,5 @@
 application:
-  name: "cyberpunk-pong-game"
+  name: cyberpunk-pong-game
   pods:
     - name: "web"
       image: "registry.nexlayer.io/nexlayer-mcp/katieharris2397/cyberpunk-pong-game:38e30e1"
