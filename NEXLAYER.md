@@ -15,7 +15,7 @@
 
 ## Project Summary
 <!-- nexlayer:section agent-managed=project_summary -->
-A cyberpunk-themed Pong game featuring neon aesthetics, particle effects, and an AI opponent, built using vanilla JavaScript and HTML5 Canvas.
+A futuristic, neon-styled Pong game built with HTML5 Canvas and Vanilla JavaScript, featuring a cyberpunk aesthetic and an adaptive AI opponent.
 <!-- nexlayer:end -->
 
 ## Technology Stack
@@ -30,11 +30,10 @@ A cyberpunk-themed Pong game featuring neon aesthetics, particle effects, and an
 
 ## Repository Structure
 <!-- nexlayer:section agent-managed=structure_map -->
-- root — Project root containing static assets and configuration
-- index.html — Main entry point and game canvas layout
-- style.css — Cyberpunk styling and neon animations
-- script.js — Core game logic, AI, and rendering engine
-- Dockerfile — Containerization for Nginx static hosting
+- index.html — Game entry point and UI layout
+- style.css — Cyberpunk neon styling and animations
+- script.js — Game engine, physics, and AI logic
+- Dockerfile — Nginx configuration for static asset hosting
 <!-- nexlayer:end -->
 
 ## External Services Required
@@ -90,7 +89,7 @@ application:
 
 ## Nexlayer Configuration
 <!-- nexlayer:section agent-managed=nexlayer_config -->
-**Last deployed:** 2026-06-17T23:26:36Z  
+**Last deployed:** 2026-06-26T19:03:46Z  
 **Live URL:** https://kitbear-studio-cyberpunk-pong-game.cloud.nexlayer.ai  
 **Runtime:**  · **Port:** auto-detected  
 **Deploy branch:** nexlayer  
@@ -110,7 +109,8 @@ application:
 <!-- nexlayer:section agent-managed=build_history -->
 | Date | Status | Notes |
 |------|--------|-------|
-| 2026-06-17T23:25:48Z | analyzed | initial repo analysis |
-| 2026-06-17T23:26:36Z | success | deployed https://kitbear-studio-cyberpunk-pong-game.cloud.nexlayer.ai |
+| 2026-06-26T19:02:51Z | analyzed | initial repo analysis |
+| 2026-06-26T19:03:46Z | success | deployed https://kitbear-studio-cyberpunk-pong-game.cloud.nexlayer.ai |
 <!-- nexlayer:end -->
+
 
