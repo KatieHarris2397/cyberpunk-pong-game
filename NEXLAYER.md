@@ -15,7 +15,7 @@
 
 ## Project Summary
 <!-- nexlayer:section agent-managed=project_summary -->
-A futuristic, neon-styled Pong game built with HTML5 Canvas and Vanilla JavaScript, featuring a cyberpunk aesthetic and an adaptive AI opponent.
+A futuristic, neon-styled Pong game with cyberpunk aesthetics, featuring an AI opponent and visual effects rendered via HTML5 Canvas.
 <!-- nexlayer:end -->
 
 ## Technology Stack
@@ -24,16 +24,16 @@ A futuristic, neon-styled Pong game built with HTML5 Canvas and Vanilla JavaScri
 |------|------|---------|---------------|
 | HTML5 | language | 5 | index.html |
 | CSS3 | language | 3 | style.css |
-| JavaScript | language | ES6+ | script.js |
+| JavaScript | language | Vanilla | script.js |
 | Nginx | infra | alpine | Dockerfile |
 <!-- nexlayer:end -->
 
 ## Repository Structure
 <!-- nexlayer:section agent-managed=structure_map -->
-- index.html — Game entry point and UI layout
-- style.css — Cyberpunk neon styling and animations
-- script.js — Game engine, physics, and AI logic
-- Dockerfile — Nginx configuration for static asset hosting
+- index.html — Main entry point and game layout
+- style.css — Cyberpunk styling and animations
+- script.js — Game engine, AI logic, and rendering
+- Dockerfile — Containerization for static hosting
 <!-- nexlayer:end -->
 
 ## External Services Required
@@ -89,7 +89,7 @@ application:
 
 ## Nexlayer Configuration
 <!-- nexlayer:section agent-managed=nexlayer_config -->
-**Last deployed:** 2026-06-26T19:03:46Z  
+**Last deployed:** 2026-07-01T21:10:24Z  
 **Live URL:** https://kitbear-studio-cyberpunk-pong-game.cloud.nexlayer.ai  
 **Runtime:**  · **Port:** auto-detected  
 **Deploy branch:** nexlayer  
@@ -109,8 +109,9 @@ application:
 <!-- nexlayer:section agent-managed=build_history -->
 | Date | Status | Notes |
 |------|--------|-------|
-| 2026-06-26T19:02:51Z | analyzed | initial repo analysis |
-| 2026-06-26T19:03:46Z | success | deployed https://kitbear-studio-cyberpunk-pong-game.cloud.nexlayer.ai |
+| 2026-07-01T21:09:46Z | analyzed | initial repo analysis |
+| 2026-07-01T21:10:24Z | success | deployed https://kitbear-studio-cyberpunk-pong-game.cloud.nexlayer.ai |
 <!-- nexlayer:end -->
+
 
 
