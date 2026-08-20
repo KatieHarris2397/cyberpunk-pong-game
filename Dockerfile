@@ -1,5 +1,4 @@
-# Use the official nginx image as base
-FROM nginx:alpine
+FROM mirror.gcr.io/library/nginx:alpine
 
 # Copy the static files to nginx html directory
 COPY index.html /usr/share/nginx/html/
